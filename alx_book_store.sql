@@ -19,7 +19,7 @@ CREATE TABLE Customers(
     customer_id int PRIMARY KEY,
     customer_name VARCHAR(215),
     email VARCHAR(215),
-    address text,
+    address TEXT,
 );
 
 CREATE TABLE Orders(
